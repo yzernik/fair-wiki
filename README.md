@@ -1,7 +1,7 @@
 # trustless-wiki
 A wiki that is fair and trustless
 
-## rules
+### rules
 
 trustless-wiki has clear rules about how pages are edited:
 
@@ -15,7 +15,7 @@ trustless-wiki has clear rules about how pages are edited:
 
 - Anyone can run their own copy of the wiki. Every page of the wiki can be validated against the Bitcoin blockchain based on the page's hash and the current state of the contract.
 
-## motivation
+### motivation
 
 - Wikipedia does not have any good way to resolve disputes. There will always be differences of opinion about what should be on a page.
 
