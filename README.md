@@ -1,6 +1,8 @@
 # trustless-wiki
 A wiki that is fair and trustless
 
+## rules
+
 trustless-wiki has clear rules about how pages are edited:
 
 - The wiki starts without any pages.
@@ -12,3 +14,13 @@ trustless-wiki has clear rules about how pages are edited:
 - The amount of bitcoin required to edit a page can only go up over time, because each edit requires more than the previous one.
 
 - Anyone can run their own copy of the wiki. Every page of the wiki can be validated against the Bitcoin blockchain based on the page's hash and the current state of the contract.
+
+## motivation
+
+- Wikipedia does not have any good way to resolve disputes. There will always be differences of opinion about what should be on a page.
+
+- Governance of a public wiki will always be politicized and unfair.
+
+- Bitcoin is the only source of truth that everyone can rely on.
+
+- The only fair method to resolve disputes is to give preference to the person who is willing to spend more money.
