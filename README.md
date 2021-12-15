@@ -11,7 +11,7 @@ trustless-wiki has clear rules about how pages are edited:
 
 - To make an edit to an existing page, a user must spend a larger amount than the previous editor in that page's contract. When an edit happens, the previous editor gets back whatever amount of bitcoin they have locked up in the contract.
 
-- The amount of bitcoin required to edit a page can only go up over time, because each edit requires more than the previous one.
+- The amount of bitcoin required to edit a page can only increase over time, because every new edit requires more bitcoin than the previous one.
 
 - Anyone can run their own copy of the wiki. Every page of the wiki can be validated against the Bitcoin blockchain based on the page's hash and the current state of the contract.
 
