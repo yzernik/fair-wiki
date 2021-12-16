@@ -21,6 +21,14 @@ trustless-wiki has clear rules about how pages are edited:
 
 - Governance of a public wiki will always be politicized and unfair.
 
-- Bitcoin is the only source of truth that everyone can rely on.
+- Bitcoin is the only source of truth that everyone can agree on.
 
 - The only fair method to resolve disputes is to give preference to the person who is willing to spend more money.
+
+### implementation
+
+- The smart contract can be implemented using `OP_CHECKTEMPLATEVERIFY` (BIP119)[https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki].
+
+- The original wiki page creation would require a new Bitcoin transaction using `OP_CHECKTEMPLATEVERIFY`.
+
+- Every subsequent page edit would spend the funds in the contract and create a new contract. The funds in the contract would be returned to the previous editor using a non-interactive channel.
