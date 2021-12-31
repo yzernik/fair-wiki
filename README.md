@@ -13,6 +13,8 @@ fair-wiki has clear rules about how pages are edited:
 
 - The amount of bitcoin required to edit a page can only increase over time, because every new edit requires more bitcoin than the previous one.
 
+- Bitcoin that is spent into a page contract is effectively burnt. The editor can get their bitcoin back, but only if another editor spends a larger amount. So the total amount of bitcoin locked up is always increasing.
+
 - Anyone can run their own copy of the wiki. Every page of the wiki can be validated against the Bitcoin blockchain based on the page's hash and the current state of the contract.
 
 ### motivation
