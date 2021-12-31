@@ -1,9 +1,9 @@
-# trustless-wiki
+# fair-wiki
 A wiki that is fair and trustless
 
 ### rules
 
-trustless-wiki has clear rules about how pages are edited:
+fair-wiki has clear rules about how pages are edited:
 
 - The wiki starts without any pages.
 
